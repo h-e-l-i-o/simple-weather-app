@@ -5,6 +5,13 @@ import SelectFetchOptions from './SelectFetchOptions';
 
 import apiKey from './apiKey';
 
+// apiKey is set in apiKey.js file, here's the source:
+//
+// const apiKey = 'your-api-key-here'
+// export default apiKey;
+
+
+
 console.log ('key:',apiKey)
 
 class App extends Component {
