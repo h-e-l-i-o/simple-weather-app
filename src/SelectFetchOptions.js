@@ -18,7 +18,7 @@ class SelectFetchOptions extends Component {
 		if (!input) {
 			return Promise.resolve({ options: [] });
 		}
-		return fetch(`http://vrijeme.xyz:3003/?q=${input}`)
+		return fetch(`http://vrijeme.xyz:3004/city/${input}`)
 		.then((response) => response.json())
 		.then((json) => {
 			return { options: json };
