@@ -10,10 +10,6 @@ import apiKey from './apiKey';
 // const apiKey = 'your-api-key-here'
 // export default apiKey;
 
-
-
-console.log ('key:',apiKey)
-
 class App extends Component {
   constructor(props) {
     super(props);
